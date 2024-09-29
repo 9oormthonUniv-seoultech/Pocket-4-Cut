@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor
-public class PhotoBoothFindAdapter implements PhotoBoothFindPort {
+public class PhotoBoothAdapter implements PhotoBoothFindPort {
 
     private final PhotoBoothRepository photoBoothRepository;
 

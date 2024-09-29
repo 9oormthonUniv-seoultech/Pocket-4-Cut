@@ -19,4 +19,5 @@ public class PhotoBooth {
 
     @Column(name = "photo_booth_brand")
     private PhotoBoothBrand photoBoothBrand;
+
 }

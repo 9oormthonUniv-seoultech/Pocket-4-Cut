@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor
-public class PhotoBoothFindService implements PhotoBoothFindUseCase {
+public class PhotoBoothService implements PhotoBoothFindUseCase {
 
     private final PhotoBoothFindPort photoBoothFindPort;
 

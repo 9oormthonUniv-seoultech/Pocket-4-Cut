@@ -6,6 +6,7 @@ import jakarta.persistence.Embeddable;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
 import lombok.AccessLevel;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
@@ -23,5 +24,10 @@ public class Image extends BaseEntity {
 
     public Image(ImageType type) {
         this.type = type;
+    }
+
+    public Image(ImageType type, String imageUrl) {
+        this.type = type;
+        this.imageUrl = imageUrl;
     }
 }
